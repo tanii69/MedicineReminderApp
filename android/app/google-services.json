@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1008324428988",
+    "project_id": "medibuddy-3e27a",
+    "storage_bucket": "medibuddy-3e27a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008324428988:android:efd643a20962a2e529bcb9",
+        "android_client_info": {
+          "package_name": "com.medibuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008324428988-1vbves3msidn9ed7mus2n5jsa8vtvv86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medibuddy",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1008324428988-88e7hnr1o0c2vm1trv94bvqoah3hg38j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdU78jGMGePgp4_gMYSy6hnPGH2y1zArw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008324428988-88e7hnr1o0c2vm1trv94bvqoah3hg38j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

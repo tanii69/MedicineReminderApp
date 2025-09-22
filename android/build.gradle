@@ -1,0 +1,22 @@
+buildscript {
+     ext {
+        buildToolsVersion = "36.0.0"         // latest available
+        minSdkVersion = 24                   // RN minimum
+        compileSdkVersion = 36               // 🔥 update to 35+ (use 36 if installed)
+        targetSdkVersion = 36                // 🔥 match compileSdk
+        ndkVersion = "27.1.12297006"         // keep if you use NDK
+        kotlinVersion = "1.9.24"             // compatible with RN
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.1.0") // ✅ works with RN 0.71+
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+        classpath("com.google.gms:google-services:4.4.3")
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
